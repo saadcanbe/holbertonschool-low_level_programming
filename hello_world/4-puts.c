@@ -1,8 +1,10 @@
 #include <stdio.h>
 /**
- * main Entry point
+ * main - Entry point of the program
  *
- * Return always succes (0)
+ * This function prints a message to stdout and returns 0 upon successful completion.
+ *
+ * Return: Always 0 (Success)
  */
 
 int main(void)
