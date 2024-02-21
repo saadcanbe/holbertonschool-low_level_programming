@@ -2,7 +2,7 @@
 /**
  * main - Entry point of the program
  *
- * This function prints a message to stdout and returns 0 upon successful completion.
+ * This function prints a message to stdout and returns 0 upon successful 
  *
  * Return: Always 0 (Success)
  */
