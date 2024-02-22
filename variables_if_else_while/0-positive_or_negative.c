@@ -1,8 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/* main entry */
-/* this fucntion print if te number is pos or neg */
+/**
+ * main - Entry point
+ *
+ * This function determine pos nega
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 int n;
