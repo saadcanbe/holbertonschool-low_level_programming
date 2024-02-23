@@ -16,7 +16,7 @@ while (i <= 'z' && j <= 'Z')
 {
 putchar(i);
 i++;
-if (i == 'z')
+if (i <= 'z')
 {
 putchar(j);
 j++;
