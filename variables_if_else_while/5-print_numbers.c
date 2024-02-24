@@ -8,12 +8,12 @@
  */
 int main(void)
 {
-int i;
+int i = 0;
 while (i < 10 )
 { 
-i;
+printf("%d", i);
 i++
 }
-printf('\n');
-return (i);
+printf("\n");
+return (0);
 }  
