@@ -10,12 +10,13 @@
 int main(void)
 {
     int i;
+    char j; // Move the declaration of j outside the loop
+
     for (i = 0; i <= 9; i++)
     {
         putchar(i + '0');
     }
 
-    char j;
     for (j = 'a'; j <= 'f'; j++)
     {
         putchar(j);
@@ -25,4 +26,3 @@ int main(void)
 
     return (0);
 }
-
