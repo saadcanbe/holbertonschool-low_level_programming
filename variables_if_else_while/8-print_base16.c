@@ -10,7 +10,7 @@
 int main(void)
 {
     int i;
-    char j; // Move the declaration of j outside the loop
+    char j;
 
     for (i = 0; i <= 9; i++)
     {
