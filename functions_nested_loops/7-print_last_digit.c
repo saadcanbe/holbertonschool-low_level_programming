@@ -4,17 +4,12 @@
 #include "main.h"
 /**
  * main - Entry point
- * Print abolut valu
+ * Print the last digit
  * Return: Always 0 (Success)
  */
-int _abs(int n)
+int print_last_digit(int n);
 {
-if (n > 0)
-{
-return (n);
-}
-else
-{
-return (-n);
-}
+int r = n % 10;
+_putchar(r + '0');
+return (0);
 }
