@@ -37,8 +37,8 @@ _putchar(' ');
 }
 if (i >= 100)
 {
-_putchar((n / 100) + '0');
-_putchar((n / 10) % 10 + '0');
+_putchar((i / 100) + '0');
+_putchar((i / 10) % 10 + '0');
 _putchar((i % 10) + '0');
 }
 else
