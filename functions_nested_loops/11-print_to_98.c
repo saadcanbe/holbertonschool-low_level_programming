@@ -30,7 +30,7 @@ else
 {
 for (i = n ; i >= 98 ; i--)
 {
-if (i != 0)
+if (i != n)
 {
 _putchar(',');
 _putchar(' ');
