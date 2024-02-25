@@ -3,7 +3,7 @@
 /**
  * print a+b
  */
-int add(int, int)
+int add(int n, int m)
 {
 int n, m;
 return (n+m);
