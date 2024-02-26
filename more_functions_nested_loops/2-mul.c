@@ -4,7 +4,7 @@
 #include "main.h"
 /**
  * do pultiplicaton
- * mutlipication a b 
+ * mutlipication a b
  *
  * Return: 0 succes
  */
