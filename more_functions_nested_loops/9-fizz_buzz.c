@@ -36,6 +36,7 @@ for (i = 1; i <= 100; i++) {
 	_putchar(i + '0');
 	_putchar(' ');
 	}
+	}
 	_putchar('\n');
 	return (0);
 }
