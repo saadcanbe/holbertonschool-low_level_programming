@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
+#include <time.h>Â
 #include "main.h"
 /**
  * print_square - Print a square of a specified size using the '#' character.
