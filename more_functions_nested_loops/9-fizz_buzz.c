@@ -25,11 +25,11 @@ for (i = 1; i <= 100; i++) {
            _putchar('z');
            _putchar(' ');
         } else if (i % 5 == 0) {
-           _ putchar('B');
-           _ putchar('u');
-           _ putchar('z');
-           _ putchar('z');
-           _ putchar(' ');
+           _putchar('B');
+           _putchar('u');
+           _putchar('z');
+           _putchar('z');
+           _putchar(' ');
 	}
 	 else
         {
