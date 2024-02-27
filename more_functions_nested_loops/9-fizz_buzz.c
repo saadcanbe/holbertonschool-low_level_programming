@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include "main.h"
-
+#include <unistd.h>
 int main() {
     int i;
     for (i = 1; i <= 100; i++) {
