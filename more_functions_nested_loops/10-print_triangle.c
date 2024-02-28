@@ -12,10 +12,13 @@ int i, j;
         return;
     }
     for (i = size; i > 0; i--) {
-        for (j = 0; j < i - 1; j++) {
-            _putchar(' ');
-        }
+        for (j = 0; j < size ; j++) {
+	if ( j < i-1 )
+	{    _putchar(' ');
+	}
+	else
         _putchar('#');
+	}
         _putchar('\n');
     }
 }
