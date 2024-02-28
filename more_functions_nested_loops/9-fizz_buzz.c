@@ -1,7 +1,8 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include "main.h"
-int main() {
+int main(void)
+{
 int i;
 for (i = 1; i <= 100; i++)
 {
@@ -19,7 +20,7 @@ printf("Buzz");
 }
 else
 {
-printf("%d" , i);
+printf("%d", i);
 }
 if (i < 100)
 {
@@ -27,5 +28,5 @@ printf(" ");
 }
 }
 printf("\n");
-return 0;
+return (0);
 }
