@@ -22,7 +22,7 @@ if ( j < i-1 )
 _putchar(' ');
 }	
 else
-_putchar('#')
+_putchar('#');
 }
 _putchar('\n');
 }
