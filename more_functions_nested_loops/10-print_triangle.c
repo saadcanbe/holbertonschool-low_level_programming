@@ -11,9 +11,6 @@ int i, j;
         _putchar('\n');
         return;
     }
-
-    int i, j;
-
     for (i = size; i > 0; i--) {
         for (j = 0; j < i - 1; j++) {
             _putchar(' ');
