@@ -1,6 +1,10 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include "main.h"
+/**
+ * print_Fizz_Buzz
+ * @i: the test number
+ */
 int main(void)
 {
 int i;
