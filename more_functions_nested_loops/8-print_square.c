@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * print square
- * @n: The number of underscores to print.
+ * print_square - test
+ * @size: The number of underscores to print.
  */
 void print_square(int size)
 {
