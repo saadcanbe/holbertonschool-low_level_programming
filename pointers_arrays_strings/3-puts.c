@@ -10,7 +10,5 @@
 void _puts(char *str)
 {
 _puts(str);
-_puts('\n');
-}
 return (0);
 }
