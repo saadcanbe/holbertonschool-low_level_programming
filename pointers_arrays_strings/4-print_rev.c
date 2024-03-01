@@ -14,7 +14,7 @@ while (*s != '\0')
 s++;
 }
 s--;
-while (s >= 0 && *s != '\0')
+while (s != NULL && *s != '\0')
 {_putchar(*s);
 s--;
 }
