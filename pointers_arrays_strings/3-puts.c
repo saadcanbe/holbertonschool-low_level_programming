@@ -3,11 +3,15 @@
 #include <time.h>
 #include "main.h"
 /**
- * _puts:print a string
+ * _puts - print a string
  * @str:pointer to the string
- * Return:0 success
+ * return: void
  */
 void _puts(char *str)
 {
-_puts(str);
+while (*str != '\0')
+{_putchar(*str);
+str++;
+}
+_putchar('\n');
 }
