@@ -3,11 +3,11 @@
 #include <time.h>
 #include "main.h"
 /**
- * _ - print a string
- * @str:pointer to the string
- * Return:0 success
+ * print_rev - print reverse string
+ * @s:pointer to the string
+ * Return: void
  */
-void _puts(char *str)
+void print_rev(char *s)
 {
 while (*s != '\0')
 {
