@@ -4,7 +4,7 @@
  * put_half - print the half
  * @str: Pointer to the string.
  */
-void puts_half(char *str);
+void puts_half(char *str)
 {
 int lenght = strlen(str);
 int index;
