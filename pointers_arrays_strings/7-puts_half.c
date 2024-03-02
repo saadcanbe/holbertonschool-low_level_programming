@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 #include "main.h"
 /**
  * put_half - print the half
@@ -8,8 +9,9 @@ void puts_half(char *str)
 {
 int lenght = strlen(str);
 int index;
+int i;
 if ( lenght % 2 == 0)
-{index = lenght / 2
+{index = lenght / 2;
 }
 else
 {
