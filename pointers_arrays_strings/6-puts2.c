@@ -1,7 +1,8 @@
 #include <stdio.h>
+#include "main.h"
 /**
  * puts2 - prints every other character of a string
- * @str: Pointer to the string to be reversed.
+ * @str: pointer to string
  */
 void puts2(char *str)
 {
