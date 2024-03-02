@@ -2,7 +2,7 @@
 #include <string.h>
 #include "main.h"
 /**
- * put_half - print the half
+ * puts_half - Prints the second half of a string, followed by a newline.
  * @str: Pointer to the string.
  */
 void puts_half(char *str)
@@ -10,7 +10,7 @@ void puts_half(char *str)
 int lenght = strlen(str);
 int index;
 int i;
-if ( lenght % 2 == 0)
+if (lenght % 2 == 0)
 {index = lenght / 2;
 }
 else
