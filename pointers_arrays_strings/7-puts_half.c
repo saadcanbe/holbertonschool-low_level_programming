@@ -1,5 +1,7 @@
 #include <stdio.h>
 #include <string.h>
+#include <time.h>
+#include <stdlib.h>
 #include "main.h"
 /**
  * puts_half - Prints the second half of a string, followed by a newline.
