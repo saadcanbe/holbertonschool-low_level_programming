@@ -20,6 +20,6 @@ tmp = *st;
 *st = *fi;
 *fi = tmp;
 st++;
-fi++;
+fi--;
 }
 }
