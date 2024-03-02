@@ -6,10 +6,9 @@
  */
 void rev_string(char *s)
 {
-char
-*st = s;
-*fi = s;
-tmp;
+char *st = s;
+char *fi = s;
+char tmp;
 while (*fi != '\0')
 {
 fi++;
