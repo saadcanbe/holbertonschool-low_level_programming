@@ -15,7 +15,7 @@ while (s[i] == ' ')
 i++;
 if (s[i] == '-')
 {
-sign = -1;
+sign *= -1;
 i++;
 }
 else if (s[i] == '+')
